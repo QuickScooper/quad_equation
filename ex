@@ -9,7 +9,7 @@ def quad_equation(a, b, c):
             print('%.5f' % x1, '%.5f' % x2)
         else:
             print ("Нет действительных корней")
-    elif c == 0:  # ax^2+b=0
+    elif c == 0:  # ax^2+bx=0
         x1 = 0
         x2 = -b / a
         print(x1, '%.5f' % x2)
